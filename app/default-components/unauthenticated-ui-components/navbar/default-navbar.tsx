@@ -4,6 +4,7 @@ import Links from "./links";
 import { AlertDialog, AlertDialogContent, AlertDialogHeader, AlertDialogTrigger } from "@/components/ui/alert-dialog";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardTitle } from "@/components/ui/card";
 const navbarData= [
     
     {name:"Sign Up",url:"/sign-up"},
@@ -35,13 +36,9 @@ export default function Navbar() {
                            Search 
                         </Button>
                     </AlertDialogTrigger>
-                    <AlertDialogContent>
-                        <AlertDialogHeader>
-                            Sign In
-                        </AlertDialogHeader>
-
+                        <AlertDialogContent className="bg-white">
                             
-                    </AlertDialogContent>
+                        </AlertDialogContent>
                 </AlertDialog>
         </nav>
     )
