@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-
+import { Cursor } from "@/components/ui/cursor"
+import Image from "next/image"
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
@@ -28,7 +29,25 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        
+        <div className="absolute top-0 z-[-2] h-screen w-screen bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]">
+        <Cursor
+        attachToParent
+        variants={{
+          initial: { scale: 0.3, opacity: 0 },
+          animate: { scale: 1, opacity: 1 },
+          exit: { scale: 0.3, opacity: 0 },
+        }}
+        transition={{
+          ease: 'easeInOut',
+          duration: 0.15,
+        }}
+        className='left-12 top-4'>
+                    <Image src={'/cursor-ui.svg'} width={40} height={30} alt="cursor-ui" />
+
+        </Cursor>
         {children}
+        </div>
       </body>
     </html>
   );
