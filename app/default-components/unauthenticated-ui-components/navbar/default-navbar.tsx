@@ -5,18 +5,22 @@ import { AlertDialog, AlertDialogContent, AlertDialogHeader, AlertDialogTrigger 
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardTitle } from "@/components/ui/card";
+import { TextEffect } from "@/components/ui/text-effect";
 const navbarData= [
     
     {name:"Sign Up",url:"/sign-up"},
     {name:"Sign In",url:"/sign-in"},
+    {name:'Dashboard',url:'/dashboard'}
   
 ]
 export default function Navbar() {
     return(
-        <nav className="flex items-center justify-between p-4 bg-slate-900">
-            <div className="mx-auto">
-                <Image src={''} width={125} height={40} alt="" />
-            </div>
+        <nav className="flex items-center justify-between p-4 bg-slate-900 shadow-sm shadow-green-400">
+            <Link className="mx-auto" href={'/'}>
+                <TextEffect className="text-1xl font-bold text-zinc-100">
+                    Music App
+                </TextEffect>
+            </Link>
         
            
             <ul className="hidden sm:inline-flex gap-4 text-sm mx-auto">
