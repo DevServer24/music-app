@@ -2,9 +2,9 @@ import Image from "next/image";
 import Link from "next/link";
 import Links from "./links";
 import { AlertDialog, AlertDialogContent, AlertDialogHeader, AlertDialogTrigger } from "@/components/ui/alert-dialog";
-import { Input } from "@/components/ui/input";
+
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardTitle } from "@/components/ui/card";
+
 import { TextEffect } from "@/components/ui/text-effect";
 const navbarData= [
     
