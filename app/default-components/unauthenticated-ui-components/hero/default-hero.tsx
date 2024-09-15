@@ -40,13 +40,7 @@ const DefaultHero = () =>{
                 <p className="text-1xl text-slate-100 font-bold">
                     Powered by:
                 </p>
-               <div className="pl-20 pr-20">
-                <InfiniteSlider gap={24} reverse>
-                    <Image src={'/logo-spotify.png'} width={300} height={150} alt="spotify" />
-                    <Image src={'/logo-spotify.png'} width={300} height={150} alt="spotify" />
-                    <Image src={'/logo-spotify.png'} width={300} height={150} alt="spotify" />
-                    <Image src={'/logo-spotify.png'} width={300} height={150} alt="spotify" />
-                </InfiniteSlider>
+               
                 </div>
             </div>
         </div>

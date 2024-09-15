@@ -79,8 +79,8 @@ const SignUp = () => {
                                 <Label htmlFor="password">
                                     <Input placeholder="Password"value={data.password}onChange={handleInputChange}/>
                                 </Label>
-                                <Button>
-                                    
+                                <Button type="submit">
+                                    Submit
                                 </Button>
                             </form>
                         </div>
