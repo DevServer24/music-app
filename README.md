@@ -5,8 +5,6 @@
 ##Overview
   Music App is a full-stack music streaming application built using Node.js, React.js, and Next.js. It allows users to stream audio tracks, interact with playlists.
 
-This README will cover how to build a basic music player from scratch using a custom backend and how to integrate Spotify's API for streaming music.
-
 
  #Table of Contents
  Getting Started
