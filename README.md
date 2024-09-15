@@ -9,7 +9,7 @@
  #Table of Contents
  Getting Started
 Building a Basic Music Player
-Integrating Spotify with Next.js and React.js
+Integrating  Next.js and React.js
 Technologies Used
 
 
