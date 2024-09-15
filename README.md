@@ -1,16 +1,29 @@
-<<<<<<< HEAD
-=======
-## Introduction
+
+# Music App
+
+Music App is a full-stack music streaming application built using Node.js, React.js, and Next.js. It allows users to stream audio tracks, interact with playlists.
 
 
+## 
 
-```http
-  Tech Stacks need:
+
+## Cloning Respository
+
+Use Git to clone
+
+```bash
+  git clone https://github.com/DevServer24/music-app.git
+  cd my-app
+  
+  npm run dev
 ```
 
-| name | Type     | Description                |
-| :-------- | :------- | :------------------------- |
-| `Framer Motion` | `Library` | Animation Library |
-| `Nextjs` | `Framework` | Reactjs Framework |
-| `Shadcn` | `Library` | UI Components |
->>>>>>> e7731ec588129d72e425b1bc073fc1a726611c03
+
+    
+## Tech Stacks
+
+- [Framer Motion]('https://www.framer.com/motion/')
+- [Next Js]('https://nextjs.org/')
+- [Shadcn UI]('https://ui.shadcn.com/')
+
+
