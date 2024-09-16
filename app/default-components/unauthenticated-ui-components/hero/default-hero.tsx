@@ -41,7 +41,7 @@ const DefaultHero = () =>{
                     Powered by:
                 </p>
                
-                </div>
+                
             </div>
         </div>
     )
